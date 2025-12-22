@@ -1,64 +1,32 @@
 # This is portfolio site build by Javier Lo
 
-Below are the tech stack used for this site. Note that TypeScript is not used as I've decided that it is not needed for this project.
+Below are the tech stack used for this site. Note that TypeScript is not used but you can always install it.
 
 - Vite
 - React
 - JavaScript
-- TailwindCss
+- TailwindCSS
 
-## Goals
+## What is this?
 
-My primary goals:
+A one page Vite's website template with a simple Markdown blog implemented.
 
-- To learn modern way of web development (It's been a decade since I last touched`<code>`).
-- With the advancement of AI in software development, I figured it'll be great to know what's going on under the hood.
-- To document my learnings
-- Ultimately, once I'm comfortable enough I'd like to build something useful.
+## What it contains
+- Home page
+- Blog page
 
-## Checklist
+## Components
+- BackButton
+- ExternalLink
+- A simple LigthBoxModal that supports most media including videos
+- BlogPreview (List of most recent blogposts)
+- ExplorationsGrid (List of most recent projects)
 
-- [x] Initiate React project via Vite
-- [ ] Learn Basic React
-  - [x] Basic principles
-  - [x] Folder structures
-  - [x] Components and Props 👈 ~~I am currently here!~~ 😩This s@!t is hard!
-  - [x] Best practices - improve file structures
-- Tech Stack (Highlevel):
-  - [x] Tailwind
-  - [x] Install Tailwind Prettier
-  - [x] React Router Dom - handles page routing for react
-  - [x] React-Markdown plugins
+## How to write blogpost
+- You just have to add your own .md file in src/post/createyourownpost.md
+- Ensure that you have all the Frontmatter metadata filled in
 
-## Todo List:
 
-General
+## Important note
+- Install nodePolyfills due to Buffer not being supported in Vite + React [Read Here](https://www.npmjs.com/package/vite-plugin-node-polyfills)
 
-- [x] Add LinkedIn and Email
-- [x] Change repo name
-
-Blog
-
-- [x] Setup blog index page routes - Hard coded content for now
-- [x] Setup blogpost page routing
-- [x] Create post.js schema
-- [x] Explore options like Markdown `vite-plugin-mdx` I've decided to use `react-markdown` for now.
-- [x] Blog page with full Markdown rendering via `react-markdown`
-- [x] Style blogpost page
-- [x] Create BlogPreview component
-- [x] Display BlogPreview component and add it to Home page
-- [x] Extract blog post sort logic into a utility function
-- [x] Install `gray-matter` to parse front-matter from \*.md files
-- [x] Install nodePolyfills due to Buffer not being supported in Vite + React [Read Here](https://www.npmjs.com/package/vite-plugin-node-polyfills)
-
-- [ ] Syntax Highlighting - MDX
-- [ ] Long term CMS options?
-
-Project Showcase
-
-- [ ] Project Page
-- [x] ProjectPreview component
-
-Newsletter
-
-- [ ] Investigate Newsletter Feature
