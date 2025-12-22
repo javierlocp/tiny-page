@@ -9,7 +9,7 @@ const Footer = () => {
           <p className="mb-6 text-sm leading-6 text-neutral-400">
             Design and code by Javier Lo. <br />
             Source code at{' '}
-            <ExternalLink className="text-sm text-neutral-400" href="https://github.com/javierlocp/j6o-site">
+            <ExternalLink className="text-sm text-neutral-400" href="https://github.com/javierlocp/tiny-page">
               Github
             </ExternalLink>{' '}
             <br />
