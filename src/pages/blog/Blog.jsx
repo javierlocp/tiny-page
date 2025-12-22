@@ -12,8 +12,8 @@ const Blog = () => {
   return (
     <>
       <div className="intro mb-22 flex flex-col gap-4">
-        <h1 className="text-base text-pretty">Writing</h1>
-        <p>A collection of notes, code snippets, and loosely formed ideas on design, tech, and the process of figuring things out.</p>
+        <h1 className="text-base text-pretty">Blog</h1>
+        <p>Descriptions of your blog.</p>
       </div>
 
       <ul>

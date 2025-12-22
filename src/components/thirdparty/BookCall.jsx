@@ -25,9 +25,7 @@ export default function BookCall() {
       />
 
       <div className="flex items-center">
-        <span className="px-2">Exploring new opportunities</span>
-        {/* <div className="h-4 w-px bg-gradient-to-b from-transparent via-gray-400/70 to-transparent" />
-        <span className="px-2">Let's Talk</span> */}
+        <span className="px-2">Replace with your own Cal.com or Google Calendar</span>
       </div>
     </button>
   );

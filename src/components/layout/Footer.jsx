@@ -1,6 +1,5 @@
 import ExternalLink from '../ui/ExternalLink';
 // Footer Component
-// This is written in arrow function
 const Footer = () => {
   return (
     <footer className="mt-40">
