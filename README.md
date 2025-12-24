@@ -1,6 +1,6 @@
 # This is portfolio site build by Javier Lo
 
-Below are the tech stack used for this site. Note that TypeScript is not used but you can always install it.
+Below are the tech stack used for this site. Note that I intentionally didn't use TypeScript here but you can always use it.
 
 - Vite
 - React
